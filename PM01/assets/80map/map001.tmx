@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="27" height="40" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="Atlas01" tilewidth="64" tileheight="64">
+  <image source="Atlas01.png" width="1024" height="1024"/>
+  <tile id="15">
+   <properties>
+    <property name="isPreOpened" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="isCollidable" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="isDontSetMine" value="YES"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="257" name="Atlas02" tilewidth="64" tileheight="64">
+  <image source="Atlas02.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="513" name="Atlas03" tilewidth="64" tileheight="64">
+  <image source="Atlas03.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="769" name="Atlas04" tilewidth="64" tileheight="64">
+  <image source="Atlas04.png" width="1024" height="1024"/>
+ </tileset>
+ <layer name="ItemLayer" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3NKxaCABhE4T8jaAeBzlOr+MIIxSzufx3e6AamzT3nOxPnFBFPvHEObQ1aXDCJvzr0uOIm/how4o6H+CvBDjkK8VeKDEeU4q89DqhQi78WrPhgw1f4NeP1t84555xzzjnnNP0A8InrSuAQAAA=
+  </data>
+ </layer>
+ <layer name="CrackedEarth" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BAQkAAAACoK71/1Q7ArUBAAAA+DZggHY/4BAAAA==
+  </data>
+ </layer>
+ <layer name="Background" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PMQ0AMAwEsVBJGbT8wTUoXhk8nG52V9WZOvA7vdATHi4uLi4uLi4uLi4uLi4urh2uDyaDi5vgEAAA
+  </data>
+ </layer>
+ <layer name="MineLayer" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BAQkAAAACoCb1f107ArUBAAAA+DZH+JYp4BAAAA==
+  </data>
+ </layer>
+ <layer name="Foreground" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RQQoAIAhEUesGdf/D1sZN2MIKKfrCMCuxR0lEck8K6NJTgzrCgwsXLly4cOHChQsXrj9dO3ve90mAS+/orOx7POOcds3ueH23ubStefm/tLMRz34DOg4uTuAQAAA=
+  </data>
+ </layer>
+ <layer name="FlagLayer" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3DAQkAMAzAsEqbhPtXs9k4JJCquS8AAACAPy2saI3b4BAAAA==
+  </data>
+ </layer>
+ <layer name="Stationary01" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA71XW26EMAz0Hbp9/LPt7j+lF6Dt/Y/URJuRhsGAKQmRLB4hdmZsbOdqZu9JridcP5MMJ13PwFMD1971R/aJ+z248DzQOxXM3ZN8J7mVNWv79uaX8LHunyK/9hhjecbcbQWT4uJ51g/dW2Msa9g27Ciuu7P3I2Ms9gab4/qooF9Hb1O/wd5XA1vgFb5EnLwleWlgL4/O5nHRgsc8epv+S/m+BY9PSV5t+l/l+8zjs9XlEvHo/V8tfMf+YnstfOf5i/NJLWzqL+URUgNbxuTldPZZDb8Bk1fvNEYQmxd7xCeuUfvwE+dDrTEenywRvOwn1e3pVLvgditXM3deXfZ0qh+5tq3VnY7WLNVlxsd1h6+R2OzJBvPDe8c8vlF7+TmSM5GX2J7yw3HCXONd5i9aszub88J86j7Yxt7eAP+wF4fwOXoT1NM9WDAQh8wL8+b5fPyHHaxjf3FMtKiT6Gu0j0Iuql0jtT/Wuly7v8nxyHme72v3N+CS/cW9W62eQ/Oi8oi4OYIv27iQnaXzGsfKVt2CTv1O6+Pec+XgYEU+j+qJniO9HN/RXPRcGcUFXpWr6Hn5D32sXAzgEAAA
+  </data>
+ </layer>
+ <layer name="Stationary02" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3NtU5AURRE0Zfw6bg2uDa4Nrg2uDa4Nrg2uIaV8Ak3dGcnq5xMlkVRFEVRFP1vuTlZlkc+BRRSRDEllFJGORU5aV+V9lVUU0MtddTTQCNNNNOS+NVq30Y7HXTSRTc99NJHPwOJX4P2QwwzwihjjDPBJFNMM5P4NWs/xzwLLLLEMiusssY6G4lfm/ZbbLPDLnvsc8AhRxxzkvh1an/GORdccsU1N9xyxz0PiV+P9k8888Irb7zzwSdffPOT+BVFURT99Qswaim+4BAAAA==
+  </data>
+ </layer>
+ <layer name="Stationary03" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Yt0sEQRTH8XUUzIUBzIUBjGAEIxjB2BjA2JhjY46NuTbX5tpcm2tzbf43/G511Z1XzAwi9+BTLOy8H8cu+x5nGLarVRhGG9rRgU50oRs96EWf+KWJnTVInyEMYwSjGMM4JjCJKUlZjnKUjvLgffWEl4b3NpiMEIRqyIojIx4JGrKyyMhGjoasMjLKUaEhq4GMRjRpyJL9rbZVjm/13y4nnouAM1wUPyMf+vvCD/6Ks8LpH4FIRCnOSqZ/ClKRpjgrn/4FKESR4qxK+lehGjWK50kzfVuEZcdUOU/66TsgLDumrnlilq55YpaueWKWrnli1n+cJ94af08YWa5wg7uQs5dOc3YGs5jDPBawiAAEIkjI2UuXOLuMFaxiDevYQDRiECvk7KWbnN3CNnawiz3sIx0ZyBTW99JErpPszD/gvkMc4RgnOMUZilGCUmF9L83lOs/OrHPuu8AlrnCNG9yiFnWoF3L20jvO3uMBj3jCM16E/P8QXjn7hnd84BNf+MYP9nq9v+AQAAA=
+  </data>
+ </layer>
+ <layer name="Stationary04" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XN6gUURgG0OcIZh+oYFZQwdyoYG7MEcEcEcwRc1bM2iiYbbQxNtoYG23UZ7Yxx8YcG9MzFp7O3WLcB7t3bPaHwxYXvm+5A3PnFkUFBRe5xGWucJVrXOcG/5ou1rvSje70oCe96E0f+tKPO9zlHvd5wEMe8ZgnGboGWh/EYIYwlGEMZwQjGcVoXvCSV7zmDW95x3s+ZOgaZ308E5jIJCYzhalMYzoz+MJXivnGd37wk1/8ztA11/o85rOAhSxiMUtYyjKWZ8jJT/azJb/HsTPL3sxmTgJ7tFLHKlYn+DySfvZl9JWlHOWpQEUqBfgf1WXWoCa1qE0d6gboaiyzCU1pRnNa0DJAV1uZ7WhPBzrSic4BuuLOtf4BuuLOtTEBuuLOtZlszXFf3Lm2Iv/e/a+zxv6vZR3r2cDGQM9km9zt7GAnu9gdqGuf3P0c4CCHOMyAAH3HZB7nBCc5xWnGBug6J/M8FyiK/n7Dh5ibcm9xO0r/hg8xT+U+43mU/g0fYj7K/cTnKP0bfhObE3of7dGzN2BXKdkRpTnC0YBdVWRXpRpnOBuwq4HshjSKSnZPzWZayW5Nmyj9nlrZb2GOe1Pv06n31Hp+6+e4K/U+XZJ7ajaTep9Ocv4A/vkaP+AQAAA=
+  </data>
+ </layer>
+ <layer name="Stationary05" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2WOU8CQRSA5z96xNaAxt4jtOARWjUxtoqArYBH623rldiqoLYg9n6TQDIuMLuTOQyBL/mSyc7b93azeTtPCD11bFjsm9DGH4v9KJu4hdvKtQMsGuTQxZewjB/4iftYUPZreGxQSxd/gqed9RFWsKrsX+G1QS1d/A3edtbneIGXBrnHjBa7AWsdBqw1xi25/36AIeUeH/AxQK1XfMP3ALWa2MJvB7n6nfW+2BO9Z73KBE7iFE5b1MmK/me9SgrTOIfzFrUkcWf9Ii7hMq4MiHlJUGcGz2JiVnEN13EjQc5BLFjcG4I7Dzmf8Nlhvoyy3hF/+8zl/C/JK+ton5nO/yZE++zLQ43utx7FmVq+eyY2yh35+JAe5Bxr2zuzSq6sJk7Osba9I/+hOZFsJvbZO1189Iwtv0J2PsvgEAAA
+  </data>
+ </layer>
+ <layer name="Stationary06" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2TS25BYRiGXVZQRsoEI3RSRi4TjFTTBKMiktYIDWbqEsx1B+yAHdQOagdswqVMPUuQw/9F/pw3eWbn+57znvP/HZvF8g1d6EEfBmA0W2Z3sIcD/MMRTlfsvPe46PYIbvAo7hlgfxBC8KTYFWV/DOKQUOzKsP8FsvCq2PXO/iKUoKzYVWN/HRrwpdh1qzt8b5nQ5UeozxTPTMg1x7MQcv3iWQq5/vCshFxrPBuNzrrueRP8VxWNzoWVLjawC3R6wOEAp4DLi8MHfgHXM44wRC50NXmuBW0D75ZkJgXpC2eHPDeCsQFXjpk8FAS+4QeOT6hqdLfMmDGjZ85iTA5w4BAAAA==
+  </data>
+ </layer>
+ <layer name="Stationary07" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VRaiUURgG4Hv3dnd3d3d3d3d3d8fGTuxW7BZbsbAVC1uxwBZr7SPO4m7UAWfuQuaFZzOceb8f/vOfExX15ySMjopKRGKSkJRkJCcFKUlF6ui/FAWRjDoykZksZCUb2clBTnKROwSzCuooRGGKUJRiFKcEJSlFaZawlGUsZwUrWcVq4hGfBJziNGc4yzkqUonKVKEq1ahODWpSi9psZgtb2cZ2drCTXaQjPRm4wU1ucZs7NKQRjWlCU5rRnBa0pBWtOcRhjnCUYxznBCfJR34K8IznvOAlr+hIJzrTha50ozs96EkvenOBi1ziMle4yjWuU47yVOAzX/jKN74zkEEMZghDGcZwRjCSUYzmHvd5wEMe8ZgnPA3snYMh2EM/81rPG97yjvd84COfAjPOh2hWMLkbi7Mi+bfU8a7qUo/6NAjju2ujuy3taE+HMM7qo7sv/ejPgDDOGqN7LOMYz4QwzpqheyazmM2cWPrWQnVWxUwcnXGjf91dMROOsyqNzrSBuytmfndWTfT7JCYzhalMC/K58liXN3B3BZO51s1jPgtYyKIg/1vGurKBuyuYrLFuLetYzwY2hmkP7da7h73sYz8HIndDJP+Y6bG4hxbH4qxNkW8jkkj+u/wA3T+1seAQAAA=
+  </data>
+ </layer>
+ <layer name="Stationary08" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2XuU4EMQyG5zFp6baDF4AFeu5mG+5rG3a5qblrQEi0gIAaENDyReyIKJowzknDL33STJKRFcv22EXxr1SahhmYFZ6/hCu49rC1BMuwIjx/B/fwIDy/Dhu9523YgV3hty/wCm/Guu2+B3DYez6CYzgR2hqzrNvu24KLX77zkXnfVViDdkQbpUaN9z3YT2BHyYznUzhLZMs1nkPkGs8hco3nEKmY7stgR+kWGplsPcFzJlsf8JnJlpnLVXL9p4QoRQ7eWNb1HIxVix8t63oOxvLnu+CMqz9D4ryqptn8Olf8xPkADBr7dT5yqWmbMATD0IQRY7/OR5Ic0TUOEzAJU8ZeXd1vOdpSfpyHBVg09up8VPYG/UJbyo8d6MKWtu7TO/pK2jvGkOqlUtW+qjxL1X9U/U/0OHSNb1fl7D/+UtLaqc81vpL2CPpck1rnxfdco1TOHyGS+jPG/CH1p2T++AJvIqmh4BAAAA==
+  </data>
+ </layer>
+ <layer name="Stationary09" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2WOQ7CQAxF55i0dFyDIwANLTstew0F1GwHYL8AS8svGEUaOZmE2EYBvvSkSGP5z2QS28b89U1qg06K9SQag0nM9bS+c7CIuU7ti/Pcvn353ou0/7dK6g6p3JJ36Oa2d1gV8Ar7ProCXiVQFshLqQbqSl490PfEFJm8pmDGlCuLOoOLktcdPJS8tCVZK13ZepZnzkudgbvf2Zqr0bNtzf1kz84pehUUvbIkqs9L/a9Un/+V+XQDtoxxUTqCE2NclK7g9nq2M1fFE/eulmAF1iaYuRpOTBO0iPik2oE9OJhg5ho4MUMwIuLD9ARWyCCb4BAAAA==
+  </data>
+ </layer>
+ <layer name="Meta" width="27" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WyQ3AIAxEUZdACS5t+q8iygHJQiy2bKwsjPQvOfDCDSYiPp1eGDaerdnu83sD6e4Nh9HbUywOtu7ho9bIkSHR4iALD7QiPK2TbXk8qzMKiRYnOjMr2smyVvuqhSAHCZZl2n+Wye+7Lc8snncaq3qzFYUF8r8TiyjCqs2clWdxWqvntJ71LqukEXXm3yxPF3+86ijgEAAA
+  </data>
+ </layer>
+</map>
